@@ -109,6 +109,47 @@ Eclipse: Right-click on the testng.xml file and select Run As -> TestNG Suite.
 
 Also review lib folder to add manully .jar to the project.
 
+Static Report: 
+
+Frontend task:
+
+===== Invoked methods
+    web_cookunity_test.testMealPlanSelection()[pri:0, instance:Sanity_test.web_cookunity_test@639c2c1d]
+=====
+PASSED: Sanity_test.web_cookunity_test.testMealPlanSelection
+
+===============================================
+    CookUnitySanityTest
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+CookUnitySanitySuite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+Also a video, Please review 2025-05-28.mp4
+
+API task:
+
+[RemoteTestNG] detected TestNG version 7.11.0
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+PASSED: Sanity_test.api_cookunity_test.testMealPlanSelection
+
+===============================================
+    Default test
+    Tests run: 2, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
 📧 Contact
 
 For any questions or comments, feel free to contact:
